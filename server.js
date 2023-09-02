@@ -68,9 +68,9 @@ io.on('connection', (socket) => {
     })
 })
 
-app.get("/", (req, res) => {
-    res.send("Hello, i am testing")
-})
+// app.get("/", (req, res) => {
+//     res.send("Hello, i am testing")
+// })
 
 server.listen(PORT, ()=> {
     console.log(`listening on port ${PORT}`);
